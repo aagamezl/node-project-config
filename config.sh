@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Initi Node.js project
+# Init git repository
+git init
+
+# Init Node.js project
 npm init -y
 
 # Install dependencies
