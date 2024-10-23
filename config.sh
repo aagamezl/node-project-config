@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# Init git repository
-git init
+if [[ ! -d .git ]]; then
+  # Init git repository if doesn't exists
+  git init
+fi
 
 # Init Node.js project
 npm init -y
